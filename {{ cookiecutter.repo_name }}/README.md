@@ -1,8 +1,40 @@
-# 
+Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial.
+Politécnico Malvinas Argentinas.
 
-## Project Organization
+Aprendizaje automático
 
-```
+Autor: Silvia Bolaña
+
+Automatización de compra venta de bitcoin
+Este proyecto tiene como objetivo desarrollar un sistema automatizado que tome decisiones de compra y venta de Bitcoin (BTC) basado en datos históricos y patrones de comportamiento. A continuación, se presentan los aspectos clave del proyecto.
+
+1_Preguntas Clave del Proyecto:
+
+¿Es posible crear un modelo que siempre genere ganancias al operar con BTC? ¿Qué tipo de modelo de aprendizaje automático sería más adecuado para este propósito? ¿Los datos históricos pueden utilizarse para entrenar al modelo y establecer patrones de referencia?
+
+2_Objetivo principal:
+
+Cree un modelo de aprendizaje automático que pueda operar de manera autónoma y generar ganancias al comprar y vender BTC. Utilizar datos históricos para identificar patrones significativos en los precios del BTC, con el objetivo de maximizar las ganancias.
+
+3_Etapas del Proyecto:
+
+Recolección de Datos y ETL: Extraer datos históricos del comportamiento del BTC durante los últimos ocho años. Procesar y clasificar los datos por día, semana y mes para reducir la cantidad de información.
+Entrenamiento del Modelo: Entrenar el modelo para reconocer patrones de subida del precio del BTC. Utilizar el modelo para tomar decisiones de compra o venta en función de los datos actuales.
+Visualización de resultados: Presentar los resultados utilizando gráficos y visualizaciones. Evaluar la efectividad del sistema y comunicar los hallazgos.
+Herramientas utilizadas
+Librerías pandas, numpy, matplotlib, Scikit-learn
+
+Repositorio github, git
+
+Lenguaje python
+
+Power BI, Excel para ETL
+
+Estructura cookiecutter
+
+Enlace al vídeo: https://go.screenpal.com/watch/cZiwYRVPMhb
+
+Organización del proyecto
 ├── LICENSE            <- Open-source license if one is chosen
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
@@ -50,7 +82,3 @@
     │
     └── visualization  <- Scripts to create exploratory and results oriented visualizations
         └── visualize.py
-```
-
---------
-
